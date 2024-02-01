@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react';
 
-const page = () => {
+const Page = () => {
     const [data, setData] = useState(null);
 
     useEffect(() => {
@@ -42,4 +42,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;
